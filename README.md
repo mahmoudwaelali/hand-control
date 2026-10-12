@@ -1,6 +1,10 @@
-# Hand Control - IMPORTANT TO READ INSTRUCTIONS 
+# Hand Control
 
 Control your laptop with hand gestures, using only the webcam.
+
+> [!IMPORTANT]
+> **Setup takes 2 minutes. Follow the numbered steps for your computer, in order, and don't skip any.**
+> The first time, Windows or macOS shows a security warning. That's normal: the app is free and not registered with Microsoft or Apple. The steps below show exactly what to click.
 
 | Gesture | What it does |
 |---|---|
@@ -12,25 +16,40 @@ Control your laptop with hand gestures, using only the webcam.
 
 The window shows your camera with the hand skeleton drawn on your hand, so you can see what it sees.
 
-## Download for Windows 10 / 11 (READ IMPORTANT NOTE AFTER STEP 3)
+## Windows 10 / 11
 
 1. **[Download HandControl-windows.zip](../../releases/latest/download/HandControl-windows.zip)**
 2. Right-click the zip and choose **Extract All**.
 3. Open the `HandControl` folder and double-click **HandControl.exe**.
+4. ⚠️ If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
 
-The first time, Windows may show **"Windows protected your PC"**. Click **More info**, then **Run anyway**. This appears because the app is not signed by a company, so Windows does not recognise it yet.
+## Mac
 
-## Download for Mac (READ IMPORTANT STEPS TO RUN IT WITHOUT PROBLEMS)
-
-Needs a Mac with Apple Silicon (M1 or newer) and macOS 13 or newer. Intel Macs are not supported.
+> [!WARNING]
+> Needs a Mac with Apple Silicon (M1 or newer) and macOS 13 or newer. Intel Macs are not supported.
 
 1. **[Download HandControl-mac.zip](../../releases/latest/download/HandControl-mac.zip)** and open it.
-2. Drag **HandControl** into your Applications folder and double-click it.
-3. macOS says it could not verify the app. Click **Done**, open **System Settings > Privacy & Security**, scroll down, click **Open Anyway** next to HandControl, then **Open**. This appears because the app is not registered with Apple.
+2. Drag **HandControl** into your **Applications** folder, then double-click it there.
+3. ⚠️ macOS says it could not verify the app. Click **Done**, open **System Settings → Privacy & Security**, scroll down, click **Open Anyway** next to HandControl, then **Open**.
 4. Click **Allow** when macOS asks for the camera.
-5. When macOS asks to let HandControl control the computer, click **Open System Settings** and switch on HandControl under **Accessibility**. This is what lets it press the arrow keys and space bar. Then quit HandControl and open it again.
+5. ⚠️ When macOS asks to let HandControl control the computer, click **Open System Settings** and switch on **HandControl** under **Accessibility**. This lets it press the arrow keys and space bar.
+6. ⚠️ Quit HandControl (press **Q**) and open it again. The arrow keys and space bar only work after this restart.
 
-On a Mac you can drag the window's edge or press **-** / **+** to resize it, and you can minimise it while it keeps working; click the Dock icon to bring it back. To quit, press **Q** in the window or right-click its Dock icon and choose **Quit**.
+You can drag the window's edge or press **-** / **+** to resize it. You can minimise it and it keeps working; click its Dock icon to bring it back. To quit, press **Q** in the window, or right-click the Dock icon and choose **Quit**.
+
+### Updating to a new version on a Mac
+
+> [!WARNING]
+> Do these steps every time you update, or the arrow keys and space bar will stop working.
+
+1. Quit HandControl (press **Q**).
+2. Delete the old HandControl from **Applications**. Keep only one copy on the Mac.
+3. Open **System Settings → Privacy & Security → Accessibility**, select **HandControl**, and click **–**.
+4. Drag the new HandControl into **Applications** and open it from there. If macOS blocks it, use **Open Anyway** like the first time.
+5. When macOS asks, switch **HandControl** on under **Accessibility**.
+6. Quit HandControl and open it again.
+
+If the orange message *"macOS is blocking the arrow and space keys"* still appears, restart the Mac and repeat steps 3–6.
 
 ## Using it
 
